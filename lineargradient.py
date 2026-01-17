@@ -8,7 +8,7 @@ from sklearn.metrics import r2_score
 
 # 1. LOAD DATA
 # Use the file path for your CSV converted from Sheet2
-df = pd.read_csv(r"E:\hi.csv")
+df = pd.read_csv(r"E:\hpi\hi.csv")
 
 # 2. DATA CLEANING & ENCODING 
 # Remove rows with missing values (essential for Lag variables)
